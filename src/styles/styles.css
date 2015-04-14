@@ -1,0 +1,53 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+h1.header { background-color:#458a44; color:white; padding:5px; font-size:20px; margin-top:0px; }
+
+#signup-its-free { font-size:small;}
+
+#jumbotron { background-image: url('../images/green-background.jpg'); background-size:cover; margin: 0px 0px 20px 0px;}
+#jumbotron .container { padding:30px;}
+#jumbotron-text { color: white;  }
+#jumbotron-text span { color:white; display: block; font-size: 38px; font-weight: 200; line-height: 35px; margin-bottom: 12px; font-family: 'Open Sans', sans-serif; }
+#slides { height: 287px;}
+#slides img { width:100%; max-width: 498px; }
+footer { background-color: #e4e4e4; padding:20px; }
+footer ul { list-style: none; padding-left: 0px;}
+
+.bottom-etched { border-bottom: solid 1px #ebebeb;  padding-bottom: 20px;  }
+#top { margin-bottom: 10px; margin-top: 3px; }
+#top-links { margin-top: 10px;}
+#top-links a { margin-left: 15px; font-size:17px; }
+
+/* HELP */
+#help { position: relative;}
+#help-content img { border:solid 1px #aeaeae; padding:5px; margin:10px;}
+#sidebar {  width:225px; background-color: #f7f5fa; border-radius: 5px; padding: 15px 0 15px 0;}
+#sidebar.affix {
+  position: fixed;
+  top: 20px;
+}
+#sidebar.affix-bottom {
+  position: absolute;
+}
+
+#sidebar li.active>a {
+  background-color: #f7f5fa;
+  color: #408c1b; font-weight: bold;
+}
+#sidebar ul { list-style:none;}
+#sidebar a { color:black; padding: 5px 15px;}
+#sidebar a:hover, #sidebar a:focus { text-decoration: none;}
+#sidebar ul ul li, #sidebar ul ol li { font-size: smaller;}
+#sidebar ul ul { padding-left:20px;}
+
+#getting-started-video { width: 350px; padding:10px 20px 10px 20px; margin: 0px 20px 0px 20px;}
+
+/* bootstrap overrides */
+.nav > li > a:hover, .nav > li > a:focus { background-color: inherit;}
